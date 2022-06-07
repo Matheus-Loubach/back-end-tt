@@ -1,7 +1,7 @@
-import { HeartIcon } from '@heroIcons/react/outline'
 import { useEffect, useState } from 'react'
+import { HeartIcon } from '@heroicons/react/outline'
+import { useFormik} from 'formik'
 import axios from 'axios'
-import { useFormik } from 'formik'
 
 //maximo de digitos 
 const MAX_TWEET_CHAR = 250
@@ -90,7 +90,7 @@ function Tweet({name, username, avatar, children}){
         <p>{children}</p> 
 
         <div className='flex space-x-1 text-silver text-sm items-center'>
-        <HeartIcon className='w-4 stroke-1 stroke-silver'/>
+        <HeartIcon className="w-6 stroke-1"/>
         <span>1.5k</span>
         </div>
       </div>
