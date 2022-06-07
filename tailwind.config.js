@@ -17,7 +17,7 @@ module.exports = {
 
         backgroundColor: brandcolor.richblack,
         textColor: brandcolor.platinum,
-      }
+      },
     },
   },
   plugins: [],
