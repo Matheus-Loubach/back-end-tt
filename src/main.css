@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,#root{
+  height: 100%;
+  
+}
+
+body{
+  background: #000000;
+  color: theme('colors.textColor');
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
