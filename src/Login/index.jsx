@@ -7,9 +7,8 @@ import { useState } from 'react';
 
 //juntar os dois input com o msm estilo
 const Input = props => (
-      <input {...props} className="w-full outline-none p-4 border hover:border-blue-800 rounded-2xl text-birdblue focus:border-blue-800"/>
+  <input {...props} className="w-full bg-transparent p-4 border rounded-xl border-onix text-lg outline-none focus:border-platinum" />
 )
-
 
 //tratar validação //required campo obrigatorio //.email verificar
 const validationSchema = yup.object({
