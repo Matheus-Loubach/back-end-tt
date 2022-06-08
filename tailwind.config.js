@@ -1,23 +1,21 @@
-/*cores*/
-let brandcolor = {
-  birdblue: '#1D9BF0',
+const brandColors = {
+  birdBlue: '#1D9BF0',
   platinum: '#E7E9EA',
   silver: '#71767B',
   onix: '#333639',
-  richblack: '#15202B'
+  richBlack: '#15202B'
 }
 
-
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      colors:{
-        ...brandcolor,    
+      colors: {
+        ...brandColors,
 
-        backgroundColor: brandcolor.richblack,
-        textColor: brandcolor.platinum,
-      },
+        backgroundColor: brandColors.richBlack,
+        textColor: brandColors.platinum
+      }
     },
   },
   plugins: [],
